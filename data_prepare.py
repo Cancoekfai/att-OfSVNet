@@ -7,7 +7,7 @@ import itertools
 
 # Settings
 parser = argparse.ArgumentParser(description='Data preparation')
-parser.add_argument('--dataset', type=str, default='CEDAR', help='dataset name, options: [CEDAR, BHSig-B, BHSig-H]')
+parser.add_argument('--dataset', type=str, help='dataset name, options: [CEDAR, BHSig-B, BHSig-H]')
 args = parser.parse_args()
 
 if args.dataset == 'CEDAR':
