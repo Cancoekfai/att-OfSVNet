@@ -1,4 +1,6 @@
+# Import modules
 import torch
+
 
 class Encoder(torch.nn.Module):
     def __init__(self, num_channels):
