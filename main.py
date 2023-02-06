@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb  5 19:12:23 2023
-
-@author: Zhuohui Chen
-"""
-
 # Import modules
 import os
 import time
@@ -21,7 +14,7 @@ import matplotlib.pyplot as plt
 
 # Settings
 parser = argparse.ArgumentParser(description='Offline Signature Verification')
-parser.add_argument('--dataset', type=str, default='CEDAR', help='dataset name, options: [CEDAR, BHSig-B, BHSig-H]')
+parser.add_argument('--dataset', type=str, help='dataset name, options: [CEDAR, BHSig-B, BHSig-H]')
 parser.add_argument('--epochs', type=int, default=100, help='training epochs')
 parser.add_argument('--batch_size', type=int, default=32, help='batch size')
 parser.add_argument('--num_channels', type=int, default=1, help='number of image channels')
@@ -33,7 +26,6 @@ parser.add_argument('--cos_lr', type=bool, default=True, help='whether to use th
 parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
 parser.add_argument('--weight_decay', type=float, default=1e-3, help='weight decay')
 args = parser.parse_args()
-
 seed = 42
 random.seed(seed)
 np.random.seed(seed)
