@@ -6,9 +6,17 @@ Code to run Offline Signature Verification from our paper Offline Signature Veri
 ## Basic
 - `Python` >= 3.6
 ## Modules
+- `matplotlib`
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `torch` >= 1.8.1
+- `torchvision` >= 0.9.1
+- `tqdm`
 ```shell
 pip install -r requirements.txt
 ```
+
 
 # Data Preparation
 The samples were paired using the following script. Many of the datasets were collected by other researchers. Please cite their papers if you use the data.
