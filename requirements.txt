@@ -1,8 +1,7 @@
-matplotlib==3.5.2
-numpy==1.21.5
-pandas==1.4.4
-python==2.8.1
-scikit-learn==1.0.2
-torch==1.13.1+cu117
-torchvision==0.14.1+cu117
-tqdm==4.64.1
+matplotlib
+numpy
+pandas
+scikit-learn
+torch>=1.8.1
+torchvision>=0.9.1
+tqdm
