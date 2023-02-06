@@ -10,7 +10,7 @@ Code to run Offline Signature Verification from our paper Offline Signature Veri
 pip install -r requirements.txt
 ```
 
-# Prepare data
+# Data Preparation
 This is used to split dataset to train/test partitions.
 
 ```shell
@@ -21,14 +21,7 @@ python prepare_data.py --dataset dataset
 - `BHSig260`: [BHSig260 dataset](https://drive.google.com/file/d/0B29vNACcjvzVc1RfVkg5dUh2b1E/edit?resourcekey=0-MUNnTzBi4h_VE0J84NDF3Q) [[Citation](https://github.com/Cancoekfai/att-OfSVNet/blob/main/datasets/bibtex/BHSig.tex)] contains two sub-datasets, BHSig-B and BHSig-H. The BHSig-B dataset has 2400 images genuine signature images and 3000 forged signature images. The BHSig-H dataset has 3840 images genuine signature images and 4800 forged signature images.
 
 
-# Model training and evaluation
-This is used to split dataset to train/test partitions.
-
+# Training & Evaluation
 ```shell
 python main.py
 ```
-
-
-# Citation
-If you use this code for your research, please cite our paper:
-
