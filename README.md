@@ -29,5 +29,5 @@ python prepare_data.py --dataset dataset
 
 # Training & Evaluation
 ```shell
-python main.py
+python main.py --dataset dataset
 ```
