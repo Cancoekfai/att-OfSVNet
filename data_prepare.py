@@ -9,7 +9,6 @@ import itertools
 parser = argparse.ArgumentParser(description='Data preparation')
 parser.add_argument('--dataset', type=str, help='dataset name, options: [CEDAR, BHSig-B, BHSig-H]')
 args = parser.parse_args()
-
 if args.dataset == 'CEDAR':
     num_people = 55 # number of writers
     true_times = 10  # number of real signatures
